@@ -16,13 +16,13 @@ This project is a payment processing system using Go, Echo framework, and Postgr
 1. **Start PostgreSQL Server**
 
    ```bash
-   pg_ctl -D /usr/local/var/postgres start
+   pg_ctl -D /opt/homebrew/var/postgresql@14 start
    ```
 
 2. **Initialize Database**
 
    ```bash
-   createdb mydatabase
+   createdb mydatabasez
    ```
 
 3. **Create User**
@@ -55,13 +55,13 @@ This project is a payment processing system using Go, Echo framework, and Postgr
 ### Stopping the Database Server
 
 ```bash
-pg_ctl -D /usr/local/var/postgres stop
+pg_ctl -D /opt/homebrew/var/postgresql@14 stop
 ```
 
 ### Starting the Database Server
 
 ```bash
-pg_ctl -D /usr/local/var/postgres start
+pg_ctl -D /opt/homebrew/var/postgresql@14 start
 ```
 
 ## Troubleshooting
